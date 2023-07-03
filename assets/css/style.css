@@ -24,6 +24,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -97,3 +98,16 @@ h2 {
 
     position: absolute;
 }
+
+/* paint about */
+
+#paint-about {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
