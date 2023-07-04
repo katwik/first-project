@@ -16,7 +16,7 @@ body {
 h1,
 h2 {
     font-family: 'Oswald', sans-serif;
-    text-transform: ;
+    text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
@@ -36,7 +36,6 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
-
 }
 
 #menu li {
@@ -51,11 +50,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #2b2a2a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #2b2a2a;
 }
 
 /* hero image and cover text */
@@ -115,7 +114,6 @@ h2 {
 }
 
 
-
 /* about-us */
 #about-us {
     font-size: 110%;
@@ -142,8 +140,6 @@ h2 {
 #photos>img {
     width: 100%;
 }
-
-#contact-us {}
 
 footer {
     height: 300px;
