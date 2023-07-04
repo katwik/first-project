@@ -16,7 +16,7 @@ body {
 h1,
 h2 {
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
+    text-transform: ;
     letter-spacing: 4px;
     color: #252525;
 }
@@ -80,23 +80,28 @@ h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: 'Oswald', sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 75px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
-    background-color: #252525;
+    background-color: #6c0d74;
 
     bottom: 30px;
     right: 150px;
 
     position: absolute;
+}
+
+#cover-text>h3 {
+    color: aqua;
+    text-transform: lowercase;
 }
 
 /* intro-text */
@@ -105,6 +110,21 @@ h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: none;
     margin-left: 30px;
+
+}
+
+/* about-us */
+#about-us {
+    font-size: 110%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+#about-us li {
+    font-size: small;
+    list-style-type: disc;
+    margin-left: 75px;
 
 }
 
@@ -133,9 +153,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: large%;
+    font-size: 130%;
     margin: 1%;
     padding: 5%;
     color: #252525;
-
 }
