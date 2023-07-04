@@ -91,7 +91,7 @@ h2 {
     padding-top: 30px;
     padding-left: 10px;
 
-    background-color: #6c0d74;
+    background-color: #2d0830;
 
     bottom: 30px;
     right: 150px;
@@ -117,7 +117,7 @@ h2 {
 #about-us {
     font-size: 110%;
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     margin-left: 30px;
 }
 
@@ -138,6 +138,10 @@ h2 {
 
 #photos>img {
     width: 100%;
+}
+
+#contact-us {
+    
 }
 
 footer {
