@@ -105,6 +105,7 @@ h2 {
 }
 
 /* intro-text */
+
 #intro-text {
     font-size: 110%;
     font-family: 'Oswald', sans-serif;
@@ -112,6 +113,8 @@ h2 {
     margin-left: 30px;
 
 }
+
+
 
 /* about-us */
 #about-us {
@@ -140,9 +143,7 @@ h2 {
     width: 100%;
 }
 
-#contact-us {
-    
-}
+#contact-us {}
 
 footer {
     height: 300px;
@@ -160,5 +161,5 @@ footer {
     font-size: 130%;
     margin: 1%;
     padding: 5%;
-    color: #252525;
+    color: #2d0830;
 }
