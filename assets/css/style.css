@@ -99,7 +99,14 @@ h2 {
     position: absolute;
 }
 
-/* paint about */
+/* intro-text */
+#intro-text {
+    font-size: 110%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    margin-left: 30px;
+
+}
 
 /* photos */
 #photos {
@@ -111,4 +118,24 @@ h2 {
 
 #photos>img {
     width: 100%;
+}
+
+footer {
+    height: 300px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: large%;
+    margin: 1%;
+    padding: 5%;
+    color: #252525;
+
 }
