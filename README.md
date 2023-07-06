@@ -16,8 +16,6 @@ This section will allow the user to easily navigate from page to page across all
 
 <!--add picture of nav-bar here -->
 
-![screenshot of the logo and nav bar] (/../main/assets/images/readme/logo-menu)
-
 Image on the landing page
 The landing page includes a photograph with text overlay to allow the user to see exactly who can partisipate.
 
@@ -56,6 +54,8 @@ If time allowed I would have added an form on the About page. The form would all
 
 ## wireframes
 
+<!-- add picture of wireframes -->
+
 ## technology
 
 ## testing
@@ -64,11 +64,33 @@ If time allowed I would have added an form on the About page. The form would all
     * HTML
       No errors were returned when passing through the official W3C validator
 
+
     * CSS
       No errors were found when passing through the official W3C validator
 
-    8.2 test cases (user story based with screenshots)
-    8.3 fixed bugs
-    8.4 supported screens and browsers 9. Deployment
-    9.1 via gitpod
-    9.2 via github pages 10. credits
+## Test cases (user story based with screenshots)
+
+## Fixed bugs
+
+## Supported screens and browsers
+
+## Deployment
+
+The site was deployed to GitHub pages by following these steps:
+
+- Navigate to the Settings tab in the GitHub repository,
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+## Credits
+
+### Content
+
+    * The text on the site are written by me.
+    * The icons in the footer were taken from Font Awesome.
+    * Instructions on how to implement form validation on the Sign Up page was taken from the Love running project.
+    * Inspiration for css styling was taken from the Love running project.
+
+### Media
+
+    The photos used on this site are taken from Pexels.
