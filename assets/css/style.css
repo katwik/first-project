@@ -152,15 +152,17 @@ h2 {
     background-size: cover;
     background-position: center;
     height: 900px;
+    margin-bottom: 50px;
 }
+
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #fff;
+    color: #f9f9f9;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: fixed;
-    left: 50%;
+    left: 40%;
     padding: 30px;
 }
 
@@ -196,7 +198,7 @@ h2 {
 
 .join-button:hover {
     background-color: #2b2a2a;
-    color: #2b2a2a;
+
 }
 
 footer {
@@ -205,6 +207,7 @@ footer {
 
 .social-networks {
     text-align: center;
+
 }
 
 .social-networks>li {

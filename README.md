@@ -1,15 +1,22 @@
-1. Purpose of the project
+# Paint with us
 
-   Paint with us is a site that hopes to inspire people to start painting with fluid art, using the online course. The site targets people everywhere who wants to paint when and where it suits them. Paint with us will be useful those who want to learn the basics in fluid art and learn how to use them.
+## Purpose of the project
 
-2. User stories
-   As a user I would like to see what the course offers and the prices. As a visiting user I would want to be able to sign up for the course and see the contact information.
-3. Existing features
-   Navigation bar
-   Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+Paint with us is a site that hopes to inspire people to start painting with fluid art, using the online course. The site targets people everywhere who wants to paint when and where it suits them. Paint with us will be useful those who want to learn the basics in fluid art and learn how to use them.
+
+## User stories
+
+As a user I would like to see what the course offers and the prices. As a visiting user I would want to be able to sign up for the course and see the contact information.
+
+## Existing features
+
+Navigation bar
+Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, About, Gallery and Sign Up page.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 <!--add picture of nav-bar here -->
+
+!(/../main/assets/images/readme/logo-menu)
 
 Image on the landing page
 The landing page includes a photograph with text overlay to allow the user to see exactly who can partisipate.
@@ -41,13 +48,25 @@ This page will allow the user to get signed up the Paint with us course to start
 
 <!-- add picture of sign up -->
 
-4. future features
+## future features
 
 If time allowed I would have added an form on the About page. The form would allow the user to require some more detailed information about the course via a 'tell me more' bottom
 
-5.  Typography and color scheme 6. wireframes
-    === 1-6 for planning and then write code === 7. technology 8. testing
-    8.1 code validation
+## Typography and color scheme
+
+## wireframes
+
+## technology
+
+## testing
+
+    8.1 Validator Testing
+    * HTML
+      No errors were returned when passing through the official W3C validator
+
+    * CSS
+      No errors were found when passing through the official W3C validator
+
     8.2 test cases (user story based with screenshots)
     8.3 fixed bugs
     8.4 supported screens and browsers 9. Deployment
