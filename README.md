@@ -16,7 +16,7 @@ This section will allow the user to easily navigate from page to page across all
 
 <!--add picture of nav-bar here -->
 
-!(/../main/assets/images/readme/logo-menu)
+![screenshot of the logo and nav bar] (/../main/assets/images/readme/logo-menu)
 
 Image on the landing page
 The landing page includes a photograph with text overlay to allow the user to see exactly who can partisipate.
