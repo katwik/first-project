@@ -26,6 +26,7 @@ h2 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    width: 70%;
 }
 
 /* navigation links */
@@ -113,19 +114,6 @@ h2 {
     margin-left: 30px;
 }
 
-/* For medium screen sizes from 950px and down */
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}
-
-
-
 /* about-us */
 #about-us {
     font-size: 110%;
@@ -135,10 +123,17 @@ h2 {
 }
 
 #about-us li {
-    font-size: small;
+    font-size: 110%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
     list-style-type: disc;
-    margin-left: 75px;
+    margin-left: 40px;
 
+}
+
+#about-us footer {
+    height: 100px;
+    margin-bottom: 50px;
 }
 
 #gallery
@@ -172,4 +167,56 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #2d0830;
+}
+
+/* Media queries */
+
+/* For larger to medium screens, such as a tablet device */
+@media screen and (max-width: 1200px) {
+    body {
+        width: 65%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    #intro-text {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #photos {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* For medium screen sizes from 950px and down, such as smartphones */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0, ;
+    }
+
+    #intro-text {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #photos {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0;
+    }
 }

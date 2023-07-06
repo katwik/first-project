@@ -1,6 +1,8 @@
 1. Purpose of the project
+
    Paint with us is a site that hopes to inspire people to start painting with fluid art, using the online course. The site targets people everywhere who wants to paint when and where it suits them. Paint with us will be useful those who want to learn the basics in fluid art and learn how to use them.
-2. user stories
+
+2. User stories
    As a user I would like to see what the course offers and the prices. As a visiting user I would want to be able to sign up for the course and see the contact information.
 3. Existing features
    Navigation bar
