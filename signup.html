@@ -35,24 +35,32 @@
             </ul>
         </nav>
     </header>
-    <form>
-        <fieldset>
-            <legend>Sign up</legend>
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname">
+
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
             <br>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname">
-        </fieldset>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <br>
+            <label for="basic-course">Basic course</label>
+            <input type="radio" id="basic-course" name="course_preference" value="basic-course" required>
+            <label for="basic-embellishments">Basic + Embellishments</label>
+            <input type="radio" id="basic-embellishments" name="course_preference" value="basic-embellishments"
+                required>
+            <label for="with-feedback">With feedback</label>
+            <input type="checkbox" id="with-feedback" name="course_preference" value="with-feedback" required>
 
-        <fieldset>
-            <legend>Email address</address>
-            </legend>
+            <input class="join-button" type="submit" value="Let's paint!">
+        </form>
 
-            <input type="email" name="email" id="email">
-        </fieldset>
-        <input type="submit">
-    </form>
+        <!-- Font awesome script -->
+        <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
